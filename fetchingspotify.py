@@ -1,8 +1,6 @@
-''' from setuptools import setup, find_packages
-setup(
-    name='fetchingspotify',
-    packages= find_packages()
-) '''
+
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 
 def fetchingthealbum():
     print (f"hello there")
